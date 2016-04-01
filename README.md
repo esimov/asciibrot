@@ -53,3 +53,6 @@ for {
 **Ascii Mandelbrot snpashot (monochrome version)**
 
 ![Screenshot_2](https://raw.githubusercontent.com/esimov/asciibrot/master/examples/screenshot_2.png)
+
+## License
+This experiment is under MIT License.
