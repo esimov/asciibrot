@@ -46,6 +46,8 @@ for {
 
 ### Samples
 
+**Ascii Mandelbrot snpashot - color version**
 ![Screenshot_1](https://raw.githubusercontent.com/esimov/asciibrot/master/examples/screenshot_1.png)
 
+**Ascii Mandelbrot snpashot - monochrome version**
 ![Screenshot_2](https://raw.githubusercontent.com/esimov/asciibrot/master/examples/screenshot_2.png)
