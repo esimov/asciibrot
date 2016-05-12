@@ -2,14 +2,14 @@ package asciibrot
 
 import (
 	"fmt"
-	"time"
 	"sync"
+	"time"
 )
 
 var (
-	wg      sync.WaitGroup
-	height	int = Height()
-	width	int = Width()
+	wg     sync.WaitGroup
+	height int = Height()
+	width  int = Width()
 )
 
 func DrawFractal(zoom, moveX, moveY float64, z float64, max_it int, update bool, isColor bool) {
@@ -28,8 +28,8 @@ func DrawFractal(zoom, moveX, moveY float64, z float64, max_it int, update bool,
 			for col := 0; col < height; col++ {
 				MoveCursor(row, col)
 
-				newRe := 1.5 * (float64(row) - float64(width) / 2.0) / (0.5 * zoom * float64(width)) + moveX
-				newIm := 1.2 * (float64(col) - float64(height) / 2.0) / (0.5 * zoom * float64(height)) + moveY
+				newRe := 1.5*(float64(row)-float64(width)/2.0)/(0.5*zoom*float64(width)) + moveX
+				newIm := 1.2*(float64(col)-float64(height)/2.0)/(0.5*zoom*float64(height)) + moveY
 
 				var i = iterator(newRe, newIm, z, max_it)
 
