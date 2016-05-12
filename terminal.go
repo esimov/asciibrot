@@ -4,8 +4,9 @@ import (
 	"bufio"
 	"bytes"
 	"fmt"
-	"os"
 	"strings"
+
+	"github.com/mattn/go-colorable"
 )
 
 type winsize struct {
@@ -16,7 +17,7 @@ type winsize struct {
 // Screen buffer
 // Do not write to buffer directly, use package Print, Printf, Println functions instead.
 var Screen *bytes.Buffer = new(bytes.Buffer)
-var output *bufio.Writer = bufio.NewWriter(os.Stdout)
+var output *bufio.Writer = bufio.NewWriter(colorable.NewColorableStdout())
 
 func init() {
 	// Clear console
