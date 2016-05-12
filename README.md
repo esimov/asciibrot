@@ -44,6 +44,8 @@ for {
 }
 ```
 
+A more detailed description is here: http://esimov.com/2016/05/ascii-mandelbrot-renderer-in-go
+
 ### Samples
 
 **Ascii Mandelbrot snpashot (color version)**
