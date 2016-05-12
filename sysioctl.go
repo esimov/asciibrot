@@ -3,11 +3,11 @@
 package asciibrot
 
 import (
+	"fmt"
+	"os"
 	"runtime"
 	"syscall"
 	"unsafe"
-	"os"
-	"fmt"
 )
 
 func getWinsize() (*winsize, error) {

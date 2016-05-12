@@ -1,16 +1,16 @@
 package asciibrot
 
 import (
-	"strings"
-	"bytes"
 	"bufio"
+	"bytes"
 	"fmt"
 	"os"
+	"strings"
 )
 
 type winsize struct {
-	Row    uint16
-	Col    uint16
+	Row uint16
+	Col uint16
 }
 
 // Screen buffer

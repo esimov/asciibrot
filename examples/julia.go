@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"os"
-	"time"
-	"os/signal"
-	"syscall"
+	"github.com/esimov/asciibrot"
 	"math"
 	"math/rand"
-	"github.com/esimov/asciibrot"
+	"os"
+	"os/signal"
+	"syscall"
+	"time"
 )
 
 const (
@@ -37,8 +37,8 @@ func main() {
 		}
 	}
 
-	zoom = 1.2 + rand.Float64() * 1.8
-	asciibrot.MoveCursor(0,0)
+	zoom = 1.2 + rand.Float64()*1.8
+	asciibrot.MoveCursor(0, 0)
 	asciibrot.DrawFractal(zoom, 0.0, 0.0, 0.6, MAX_IT, false, isColor)
 
 	var n float64 = 20
