@@ -48,11 +48,11 @@ A more detailed description is here: http://esimov.com/2016/05/ascii-mandelbrot-
 
 ### Samples
 
-**Ascii Mandelbrot snpashot (color version)**
+**Ascii Mandelbrot snapshot (color version)**
 
 ![Screenshot_1](https://raw.githubusercontent.com/esimov/asciibrot/master/examples/screenshot_1.png)
 
-**Ascii Mandelbrot snpashot (monochrome version)**
+**Ascii Mandelbrot snapshot (monochrome version)**
 
 ![Screenshot_2](https://raw.githubusercontent.com/esimov/asciibrot/master/examples/screenshot_2.png)
 
