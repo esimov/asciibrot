@@ -39,13 +39,12 @@ func main() {
 
 	zoom = 1.2 + rand.Float64()*1.8
 	asciibrot.MoveCursor(0, 0)
-	asciibrot.DrawFractal(zoom, 0.0, 0.0, 0.6, MAX_IT, false, isColor)
 
 	var n float64 = 20
 	for {
 		n += 0.045
 		zoom += 0.04 * math.Sin(n)
-		asciibrot.DrawFractal(zoom, math.Cos(n), math.Sin(n)/zoom*0.02, math.Sin(n), MAX_IT, true, isColor)
+		asciibrot.DrawFractal(zoom, math.Cos(n), math.Sin(n)/zoom*0.02, math.Sin(n), MAX_IT, isColor)
 
 		// On CTRL+C restore default terminal foreground and background color
 		go func() {
