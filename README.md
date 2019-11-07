@@ -46,15 +46,9 @@ for {
 
 A more detailed description is here: http://esimov.com/2016/05/ascii-mandelbrot-renderer-in-go
 
-### Samples
+### Sample
 
-**Ascii Mandelbrot snapshot (color version)**
-
-![Screenshot_1](https://raw.githubusercontent.com/esimov/asciibrot/master/examples/screenshot_1.png)
-
-**Ascii Mandelbrot snapshot (monochrome version)**
-
-![Screenshot_2](https://raw.githubusercontent.com/esimov/asciibrot/master/examples/screenshot_2.png)
+![asciibrot-gif](https://user-images.githubusercontent.com/883386/68360648-9303ad00-0129-11ea-8db0-30a1f0dc9cb5.gif)
 
 ## License
-This experiment is under MIT License.
+This project is under MIT License.
