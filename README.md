@@ -1,3 +1,5 @@
+## Description
+
 **ASCIIbrot** is a simple Mandelbrot fractal generator running in terminal. 
 It's written in Go and should run on different platforms, however the Linux based is the one on which it was tested.
 
