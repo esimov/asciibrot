@@ -1,11 +1,9 @@
 ## Description
 
-**ASCIIbrot** is a simple Mandelbrot fractal generator running in terminal. 
-It's written in Go and should run on different platforms, however the Linux based is the one on which it was tested.
+**asciibrot** is a simple ascii mandelbrot fractal generator running in terminal. 
+It's written in Go and should run on all the existing platforms, however the Linux based is the one on which it was tested.
 
-The code is meant to be as clear as possible, so it should be self explanatory, however comments are provided on less obvious code parts.  
-
-You can get the library with the following command: 
+### Install
 
 ```
 go get github.com/esimov/asciibrot
@@ -13,7 +11,6 @@ go get github.com/esimov/asciibrot
 
 ### Usage
 
-To run the mandelbrot generator type:
 ```
 go run julia.go --help
 ```
@@ -44,7 +41,7 @@ for {
 }
 ```
 
-A more detailed description is here: http://esimov.com/2016/05/ascii-mandelbrot-renderer-in-go
+Blog post on my personal website: http://esimov.com/2016/05/ascii-mandelbrot-renderer-in-go
 
 ### Sample
 
